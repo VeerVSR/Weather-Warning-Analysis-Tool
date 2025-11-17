@@ -1,0 +1,59 @@
+{
+  "type": "Feature",
+  "properties": {
+    "Warning": "Heavy Rain",
+    "Color": "Red",
+    "Date": "2025-07-15",
+    "polygonNumber": 1,
+    "Impacts": [
+      "Urban Flooding",
+      "Landslides",
+      "Crop Damage",
+      "Power Ourage",
+      "Disease spread",
+      "Transport Disruption "
+    ],
+    "SafetyMeasures": [
+      "Avoid Waterlogged Areas",
+      "Stay Indoors "
+    ],
+    "coveredDistricts": []
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.741235,
+          30.175208
+        ],
+        [
+          76.136593,
+          30.776452
+        ],
+        [
+          76.861418,
+          30.350756
+        ],
+        [
+          76.542934,
+          29.985073
+        ],
+        [
+          75.900476,
+          29.832702
+        ],
+        [
+          75.741235,
+          30.175208
+        ]
+      ]
+    ]
+  },
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 5: DOCX saved with images
+✅ Step 6: Table XML created
+✅ Step 7: Replaced polygon_table placeholder in DOCX
+✅ Step 8: Converted DOCX to PDF: F:\nginx-1.28.0\html/filled.pdf
+✅ Step 9: Converted warnings DOCX to PDF: F:\nginx-1.28.0\html/imd/processed/merged_district_punjab_haryana_warnings_table.pdf
+✅ Step 10: Merged PDF created at: F:\nginx-1.28.0\html/final_weather_report.pdf
+✅ Step 11: Final PDF exists. Sending to browser.

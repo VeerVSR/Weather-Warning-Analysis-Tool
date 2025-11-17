@@ -1,0 +1,38 @@
+
+            <w:p><w:r><w:rPr><w:b/><w:color w:val="FF0000"/><w:sz w:val="28"/></w:rPr><w:t>Day 1 - Date: 2025-07-29</w:t></w:r></w:p>
+            <w:p/>
+            
+        <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Polygon 1 - Strong Surface Winds</w:t></w:r></w:p>
+        <w:p/>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblBorders>
+                    <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                    <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                    <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                    <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                    <w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                    <w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                </w:tblBorders>
+            </w:tblPr><w:tr>
+            <w:tc><w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Impacts</w:t></w:r></w:p></w:tc>
+            <w:tc><w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Safety Measures</w:t></w:r></w:p></w:tc>
+        </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Uprooting of trees and poles </w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t>Secure loose objects </w:t></w:r></w:p></w:tc>
+            </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Disruption to road</w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t>Avoid parking under trees or weak</w:t></w:r></w:p></w:tc>
+            </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Damage to temporary structures</w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t></w:t></w:r></w:p></w:tc>
+            </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Increased fire risk </w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t></w:t></w:r></w:p></w:tc>
+            </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Power outages </w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t></w:t></w:r></w:p></w:tc>
+            </w:tr><w:tr>
+                <w:tc><w:p><w:r><w:t>Hazards to construction sites</w:t></w:r></w:p></w:tc>
+                <w:tc><w:p><w:r><w:t></w:t></w:r></w:p></w:tc>
+            </w:tr></w:tbl><w:p><w:r><w:br/></w:r></w:p>

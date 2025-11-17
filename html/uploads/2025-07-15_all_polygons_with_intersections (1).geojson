@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Warning": null,
+        "Color": null,
+        "Date": "2025-07-15",
+        "polygonNumber": 1,
+        "coveredDistricts": [
+          null
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.442107,
+              19.449328
+            ],
+            [
+              73.442107,
+              28.007335
+            ],
+            [
+              81.39321,
+              28.007335
+            ],
+            [
+              81.39321,
+              19.449328
+            ],
+            [
+              73.442107,
+              19.449328
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

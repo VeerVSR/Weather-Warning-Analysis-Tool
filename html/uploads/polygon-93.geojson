@@ -1,0 +1,59 @@
+{
+  "type": "Feature",
+  "properties": {
+    "Warning": "Cold Wave",
+    "Color": "Yellow",
+    "Date": "2025-07-15",
+    "polygonNumber": 1,
+    "Impacts": [
+      "Increased risk of hypothermia and frostbite",
+      "Rise in cold-related illnesses ",
+      "Higher mortality rates ",
+      "Disruption of transportation ",
+      "Damage to crops and livestock ",
+      "Increased energy consumption "
+    ],
+    "SafetyMeasures": [
+      "Wear multiple layers of warm clothing ",
+      "Stay indoors as much as possible",
+      "Use heating appliances safely ",
+      "Drink warm fluids and eat hot nutritious food ",
+      "Avoid prolonged exposure to cold",
+      "Keep updated with weather alerts"
+    ],
+    "coveredDistricts": []
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.111317,
+          29.126572
+        ],
+        [
+          75.111317,
+          30.08177
+        ],
+        [
+          76.692751,
+          30.08177
+        ],
+        [
+          76.692751,
+          29.126572
+        ],
+        [
+          75.111317,
+          29.126572
+        ]
+      ]
+    ]
+  },
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

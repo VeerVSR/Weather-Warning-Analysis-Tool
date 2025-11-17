@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "properties": {
+    "Warning": "Fog",
+    "Color": "Red",
+    "Date": "2025-07-15",
+    "polygonNumber": 1,
+    "Impacts": [],
+    "SafetyMeasures": [],
+    "coveredDistricts": []
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.241603,
+          30.341275
+        ],
+        [
+          75.554595,
+          30.908509
+        ],
+        [
+          76.301384,
+          30.516526
+        ],
+        [
+          76.273929,
+          30.023129
+        ],
+        [
+          75.52714,
+          29.889868
+        ],
+        [
+          75.241603,
+          30.341275
+        ]
+      ]
+    ]
+  },
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

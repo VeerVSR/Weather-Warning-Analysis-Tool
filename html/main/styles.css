@@ -1,0 +1,343 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Use min-height to ensure content can expand */
+    background-color: #f0f2f5; /* Light background for the page */
+}
+
+/* Header Styles */
+header {
+    background: #004080; /* Primary blue */
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px 0; /* Added padding to header */
+}
+
+/* Toolbar (Day Tabs) Styles */
+#toolbar {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px; /* Limit toolbar width */
+    margin: 0 auto; /* Center the toolbar */
+}
+
+.tab {
+    flex: 1;
+    padding: 12px 10px; /* Increased vertical padding */
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border for tabs */
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tab:last-child {
+    border-right: none;
+}
+
+.tab.active {
+    background: #003366; /* Darker blue for active tab */
+    color: #fff;
+    border-radius: 5px;
+}
+
+.tab:hover:not(.active) { /* Hover effect only for non-active tabs */
+    background: rgba(0, 51, 102, 0.7); /* Slightly transparent dark blue on hover */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Main Container Styles */
+#container {
+    display: flex;
+    flex: 1;
+    padding: 10px; /* Padding around the map and sidebar */
+    gap: 15px; /* Space between sidebar and map */
+}
+
+/* Sidebar Styles */
+#sidebar {
+    width: 320px; /* Slightly wider sidebar */
+    padding: 20px;
+    background: #fff; /* White background for sidebar */
+    border-right: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* More prominent shadow */
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden; /* Prevent content overflow */
+}
+
+#forms-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 15px; /* Increased margin */
+    padding-right: 10px; /* More padding for scrollbar */
+    /* Custom scrollbar styles */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #004080 #f0f0f0; /* Thumb and track color for Firefox */
+}
+
+/* Webkit browsers scrollbar */
+#forms-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+#forms-container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+#forms-container::-webkit-scrollbar-thumb {
+    background-color: #004080;
+    border-radius: 4px;
+    border: 2px solid #f0f0f0;
+}
+
+
+/* Map Styles */
+#map {
+    flex: 1;
+    height: calc(100vh - 100px); /* Adjust height based on header and container padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Consistent shadow */
+    overflow: hidden; /* Ensure map doesn't overflow rounded corners */
+}
+
+/* Upload Section */
+.upload-section {
+    margin-top: 20px; /* More space from previous elements */
+}
+
+/* General Buttons */
+.upload-btn,
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px; /* Increased padding */
+    background: #004080;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; /* Slightly larger font */
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease; /* Added transform for subtle click effect */
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.upload-btn:hover,
+.btn:hover {
+    background: #003366;
+    transform: translateY(-1px); /* Slight lift on hover */
+}
+
+.upload-btn input {
+    display: none; /* Keep file input hidden */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Increased margin between form groups */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px; /* Space between label and input/select */
+    font-size: 14px;
+    font-weight: 600; /* Bolder labels */
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; /* Full width */
+    padding: 10px 12px; /* Consistent padding */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly more rounded */
+    outline: none; /* Remove outline on focus */
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #004080; /* Highlight border on focus */
+    box-shadow: 0 0 0 2px rgba(0, 64, 128, 0.2); /* Subtle shadow on focus */
+}
+
+/* Polygon Form Styles */
+.polygon-form {
+    padding: 20px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Enhanced shadow */
+}
+
+.polygon-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px; /* More space below heading */
+    color: #004080;
+    font-size: 20px; /* Larger heading */
+    border-bottom: 1px solid #eee; /* Separator for heading */
+    padding-bottom: 10px;
+}
+
+/* Custom Multi-Select Dropdown Styles (Applied to "Impacts" and "Safety Measures") */
+
+/* This targets the 'Select Impacts' / 'Select Measures' box */
+.custom-multiselect .select-box {
+    width: 100%; /* Take full width */
+    padding: 10px 12px; /* Consistent with other inputs */
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Consistent with other inputs */
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+}
+
+.custom-multiselect .select-box:hover {
+    border-color: #004080;
+}
+.custom-multiselect .select-box::after {
+    content: '▼'; /* Dropdown arrow */
+    font-size: 10px;
+    margin-left: 8px;
+    color: #555;
+    transition: transform 0.2s ease;
+}
+
+/* Rotate arrow when dropdown is open */
+.custom-multiselect .select-box.active::after {
+    transform: rotate(180deg);
+}
+
+/* Styles for the container of checkboxes (the actual dropdown menu) */
+.checkbox-options {
+    display: none; /* Hidden by default */
+    position: relative; /* Keep it in flow, but can be absolute if needed to overlay */
+    width: 100%;
+    max-height: 180px; /* Adjust max height for scroll */
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none; /* No top border to connect visually */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08); /* Soft shadow */
+    border-radius: 0 0 5px 5px; /* Rounded corners only at the bottom */
+    padding: 5px 0; /* Padding inside the menu */
+    z-index: 99; /* Ensure it's above other elements but below map controls */
+    box-sizing: border-box; /* Important for width calculation */
+}
+
+.checkbox-options.show {
+    display: block; /* Show when 'show' class is added by JS */
+}
+
+/* Styles for individual checkbox labels within .checkbox-options */
+.checkbox-options label {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center checkbox and text */
+    padding: 8px 12px; /* Consistent padding for each option */
+    cursor: pointer;
+    margin: 0; /* Remove default label margin */
+    font-weight: normal; /* Ensure text is not bold */
+    color: #333;
+    width: 100%; /* Make label take full width */
+    box-sizing: border-box; /* Include padding in width */
+    transition: background-color 0.2s ease;
+}
+
+.checkbox-options label:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+/* Style for the checkbox input itself */
+.checkbox-options input[type="checkbox"] {
+    margin: 0 8px 0 0; /* Margin between checkbox and text, no top/bottom */
+    width: auto; /* Allow checkbox to take its natural width */
+    min-width: 16px; /* Ensure a minimum size */
+    height: 16px; /* Consistent height */
+    padding: 0;
+    transform: scale(1.0); /* Keep original size unless specified */
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+}
+
+/* Style for the text span next to the checkbox */
+.checkbox-options label span {
+    flex-grow: 1; /* Allow text to take up available space */
+    text-align: left; /* Ensure text is left-aligned */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow if text is too long */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    line-height: 1.4; /* Improve text readability */
+}
+
+/* Style for the "Select All" label */
+.checkbox-options label#impact-select-all-label, /* Specific ID for select all */
+.checkbox-options label#measure-select-all-label { /* Specific ID for select all */
+    border-bottom: 1px solid #eee; /* Separator for select all */
+    margin-bottom: 5px;
+    padding-bottom: 10px; /* More padding below select all */
+    font-weight: bold; /* Make "Select All" text bold */
+    background-color: #f8f8f8; /* Slightly different background */
+    position: sticky; /* Keep select all visible when scrolling */
+    top: 0;
+    z-index: 10; /* Ensure it stays on top */
+}
+.checkbox-options label#impact-select-all-label:hover,
+.checkbox-options label#measure-select-all-label:hover {
+    background-color: #f0f0f0; /* Hover effect for select all */
+}
+
+/* For Leaflet Draw toolbar */
+.leaflet-draw-toolbar {
+    opacity: 0.9; /* Slightly transparent */
+    transition: opacity 0.3s ease;
+}
+.leaflet-draw-toolbar:hover {
+    opacity: 1;
+}
+
+/* Media Queries for Responsiveness (Optional, but good practice) */
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        padding: 5px;
+        gap: 10px;
+    }
+
+    #sidebar {
+        width: auto; /* Allow sidebar to take full width */
+        margin: 0; /* Remove side margin */
+        padding: 15px;
+        border-right: none;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    #map {
+        height: 50vh; /* Adjust map height for smaller screens */
+        margin: 0; /* Remove side margin */
+    }   
+
+    .tab {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "district": "Example District"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.2,
+              21.2
+            ],
+            [
+              78.8,
+              21.2
+            ],
+            [
+              78.8,
+              21.8
+            ],
+            [
+              78.2,
+              21.8
+            ],
+            [
+              78.2,
+              21.2
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

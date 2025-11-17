@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Warning": "Hot Day",
+        "Color": "Yellow",
+        "Date": "2025-07-15",
+        "polygonNumber": 1,
+        "Impacts": [
+          "Mild dehydration and fatigue",
+          "Discomfort and reduced concentration ",
+          "Increased electricity usage ",
+          "Minor crop stress ",
+          "Health issues for vulnerable groups ",
+          "Rise in indoor temperatures"
+        ],
+        "SafetyMeasures": [
+          "Drink plenty of water ",
+          "Wear lightweight and breathable clothes ",
+          "Avoid prolonged exposure to direct sunlight",
+          "Use fans or coolers ",
+          "Take frequent breaks ",
+          "Eat light meals "
+        ],
+        "coveredDistricts": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.418818,
+              27.618651
+            ],
+            [
+              76.604894,
+              29.318334
+            ],
+            [
+              78.230258,
+              27.696499
+            ],
+            [
+              77.132039,
+              25.496174
+            ],
+            [
+              75.418818,
+              27.618651
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.824538,
+          27.407254
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

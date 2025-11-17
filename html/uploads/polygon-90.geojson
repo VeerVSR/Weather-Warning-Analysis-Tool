@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "properties": {
+    "Warning": "Hot and Humid",
+    "Color": "Orange",
+    "Date": "2025-07-15",
+    "polygonNumber": 1,
+    "Impacts": [
+      "Increased risk of heat exhaustion and dehydration ",
+      "Reduced effectiveness of sweating "
+    ],
+    "SafetyMeasures": [
+      "Stay in cool well ventilated areas ",
+      "Wear loose breathable and light coloured clothing "
+    ],
+    "coveredDistricts": []
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.814177,
+          28.895985
+        ],
+        [
+          75.814177,
+          29.929548
+        ],
+        [
+          77.747041,
+          29.929548
+        ],
+        [
+          77.747041,
+          28.895985
+        ],
+        [
+          75.814177,
+          28.895985
+        ]
+      ]
+    ]
+  },
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}
